@@ -1,0 +1,30 @@
+<div id='cse-search-form' style='width: 100%;'>Loading</div>
+<script src='//www.google.com/jsapi' type='text/javascript'></script>
+<script type='text/javascript'>
+google.load('search', '1', {language: 'en', style: google.loader.themes.MINIMALIST});
+google.setOnLoadCallback(function() {
+  var customSearchOptions = {};
+  var orderByOptions = {};
+  orderByOptions['keys'] = [{label: 'Relevance', key: ''} , {label: 'Date', key: 'date'}];
+  customSearchOptions['enableOrderBy'] = true;
+  customSearchOptions['orderByOptions'] = orderByOptions;
+  var imageSearchOptions = {};
+  imageSearchOptions['layout'] = 'google.search.ImageSearch.LAYOUT_POPUP';
+  customSearchOptions['enableImageSearch'] = true;
+  var customSearchControl =   new google.search.CustomSearchControl('011786396261450146992:mz7lagm6f0g', customSearchOptions);
+  customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+  var options = new google.search.DrawOptions();
+  options.enableSearchboxOnly('https://', 'q');
+  options.setAutoComplete(true);
+  customSearchControl.draw('cse-search-form', options);
+}, true);
+</script>
+<style type='text/css'>
+  input.gsc-input {
+    border-color: #A9D0F5;
+  }
+  input.gsc-search-button {
+    border-color: #A9D0F5;
+    background-color: #A9D0F5;
+  }
+</style>

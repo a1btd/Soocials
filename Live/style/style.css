@@ -1,0 +1,108 @@
+body{
+	margin:0;
+	padding:0;
+	height:100%;
+}
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+	
+#logoresult {
+
+top:0;
+left:0;
+}
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	}
+#brands {
+	padding-top:150px;
+	width: 700px;
+	margin:0 auto;
+	position:reletive;
+}
+
+	
+#header {
+height:auto;
+min-height:100px;
+height:auto;        /* for IE as it does not support min-height */
+height:100px; 
+	}
+
+
+
+	
+#search{
+	margin-left: auto;
+    margin-right: auto;
+	width:50%;
+	}
+#searchres{
+	margin-left: auto;
+    margin-right: auto;
+	width:50%;
+	}
+#searchresult{
+	top:200px;
+	margin-left: auto;
+    margin-right: auto;
+	width:80%;
+	}
+
+#content {
+	padding-bottom:100px; /* Height of the footer element */
+}
+#footer {
+	background:#A9D0F5;
+	width:100%;
+	height:60px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	
+}
+#headerres {
+	background:#A9D0F5;
+	width:100%;
+	height:60px;
+	position:absolute;
+	top:0;
+	left:0;
+	overflow:auto;
+	
+}
+#logores {
+	top:0;
+	left:0;
+}
+#brandsres {
+	top:10;
+	right:10;
+	position:absolute;
+}
+#footerline {
+	vertical-align:center;
+	text-indent:15px;
+	padding-top:5px;
+	}
+#headerline {
+	vertical-align:center;
+	text-indent:15px;
+	padding-top:5px;
+	}
+a.afooter:link {
+	text-decoration: none;
+	color: #2E75B6;
+	padding-left: 30px;
+	}
+a.afooter:hover, a.afooter:active {text-decoration: underline;}
+
+span.afooter {
+	
+	color: #FFFFFF;
+}
+
